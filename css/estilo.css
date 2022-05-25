@@ -1,0 +1,36 @@
+        body {
+            margin: auto;
+            margin-top: 0px;
+            width: 50%;
+            height: 35%;
+        }
+
+        .container {
+            font-family: 'Noto Sans', sans-serif;
+            margin-top: 20px;
+        }
+
+        th {
+            height: 30px;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        td {
+            height: 100px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .today {
+            background: red;
+        }
+
+        th:nth-of-type(7),td:nth-of-type(7) {
+            color: blue;
+        }
+
+        th:nth-of-type(1),td:nth-of-type(1) {
+            color: red;
+        }
+  
